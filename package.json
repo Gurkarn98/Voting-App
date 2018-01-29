@@ -1,7 +1,7 @@
 {
-  "name": "File-Metadata-Microservice",
+  "name": "Voting-App",
   "version": "0.0.1",
-  "description": "File Metadata Microservice",
+  "description": "Voting App",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
