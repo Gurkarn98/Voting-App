@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Voting App</title>
+    <meta name="description" content="Voting App">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" 
+          integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" 
+          crossorigin="anonymous">
+   <link rel="icon" 
+      type="image/ico" 
+      href="https://cdn.glitch.com/0f048112-ad5b-4af7-8dbe-67e07f7f03d8%2FVote-icon.png?1517225686150">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  
+  <body>
+    <div class="container">
+      
+      <nav>
+        <div class="right dropdown">
+          <button id="usernameBtn" class="nav loggedin"></button>
+          <div class="dropdown-content">
+            <a class="text-center logout" href="/logout">Logout</a>
+          </div>
+        </div>
+        <ul id="navTabs">
+          <li class="right"><a class="nav allPolls" href="/allpolls">All Polls</a></li>
+          <li class="right"><a class="nav myPolls" href="/mypolls">My Polls</a></li>
+          <li class="right"><a class="nav home" href="/home">Home</a></li>
+          <li class="left"><a class="nav webname" href="/home">Voting App</a></li>
+        </ul>
+      </nav>
+
+      <header>
+        <h1 class="text-center">
+        Voting App
+        </h1>
+      </header>
+
+      <main class="text-center">
+        <div id="specificPoll">
+          <h2 style="margin: 7%; font-size: 35px; font-weight: bold">Loading Data ...</h2>
+        </div>
+      </main>
+
+      <footer>
+        <div class="row">
+          <div class="col-sm-4">
+            <p><i class="fab fa-free-code-camp"></i> Built By <a href="https://www.freecodecamp.org/gurkarn98" target="_blank">@gurkarn98</a></p>
+          </div>
+          <div class="col-sm-4">
+            <p><i class="fab fa-twitter-square"></i> Twitter <a href="https://twitter.com/gurkarn98" target="_blank">@gurkarn98</a></p>
+          </div>
+          <div class="col-sm-4">
+            <p><i class="fab fa-github"></i> Github <a href="https://github.com/Gurkarn98" target="_blank">@gurkarn98</a></p>
+          </div>
+        </div> 
+        <div class="text-center">
+          <p><i class="fab fa-github"></i> Github repo <a href="https://github.com/Gurkarn98/Voting-App" target="_blank">Gurkarn98/Voting-App</a></p>
+          <p>Built on <a href="https://glitch.com/~votingapp-gurkarn98">glitch.com</a></p>
+        </div>
+      </footer>
+
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+      <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+              integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+              crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" 
+              integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" 
+              crossorigin="anonymous"></script>
+      <script type="text/babel" src="/allPollsScript.jsx"></script>
+      <script type="text/javascript" src="/page3.js"></script>
+    </div>
+  </body>
+</html>

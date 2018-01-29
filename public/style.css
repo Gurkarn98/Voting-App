@@ -1,0 +1,322 @@
+body {
+  background : #3a3a3a;
+  font-family: helvetica, arial, sans-serif;
+}
+.container {
+  background : white;
+  padding : 0;
+  box-shadow : 0px 0px 100px 100px
+}
+.profile {
+  padding : 5%
+}
+.username, .allPollsTitle{
+  margin : 2%;
+  font-size : 45px
+}
+.add-menu {
+  display : none;
+  width : 100%;
+  height : 100%;
+  position : absolute;
+}
+.background {
+  position : absolute;
+  background : black;
+  opacity : 0.7;
+  width : 100%;
+  height : 100%;
+  z-index : 2
+}
+.homePage {
+  margin : 3%;
+}
+.homePageTitle {
+  font-size : 45px
+}
+.homePageDescription, .profilePageDescription {
+  margin : 2%;
+  font-size : 20px
+}
+.makePollForm {
+  width : 100%;
+  height : 45%
+}
+.makePollInput {
+  width : 100%;
+}
+.makePollInputOptions {
+  height : 100%;
+  margin-bottom : 1%;
+  resize : none
+}
+.makePollInputSubmit {
+  width : 100%;
+  background : #383434;
+  border : 1.5px solid #383434;
+  color : white;
+  font-size : 25px;
+  border-radius : 5px;
+}
+.makePollInputSubmit:hover, .add-poll:hover{
+  cursor : pointer;
+  border : 1.5px solid #383434;
+  color : #383434;
+  background : white;
+  border-radius : 5px;
+}
+.hiddenField {
+  display:none
+}
+.add-poll{
+  border : 1.5px solid #383434;
+  width : 60%;
+  background : #383434;
+  color : white;
+  font-size : 25px;
+  border-radius : 5px;
+}
+.menu-box {
+  left : 25%;
+  top : 20%;
+  position : relative;
+  background : white;
+  opacity : 1;
+  width : 50%;
+  height : 60%;
+  padding : 2%;
+  box-shadow : 0px 0px 100px 50px black;
+  z-index : 5
+}
+header {
+  padding-top : 7.55%;
+  padding-bottom : 7.5%;
+  background : #424242;
+}
+.signin {
+  border : 1.5px solid white;
+  width : 60%;
+  background : #1da1f2;
+  color : white;
+  font-size : 25px;
+  border-radius : 5px;
+}
+.signin:hover{
+  cursor : pointer;
+  border : 1.5px solid #1da1f2;
+  color : #1da1f2;
+  background : white;
+  border-radius : 5px;
+}
+.webname {
+  color : white;
+  font-weight : bold
+}
+.webname:hover {
+  color : white;
+  text-decoration: none;
+}
+.home, .allPolls, .myPolls, .loggedin{
+  color : white
+}
+.loggedin {
+  border : 0px;
+}
+button:focus {
+  outline:0
+}
+.loggedin:hover{
+  cursor : default
+}
+.profilePic {
+  width : 24px;
+  height : 23px;
+  border-radius : 50%
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  width : 100%;
+  display: none;
+  position: absolute;
+}
+.logout {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.logout {
+  display : block;
+  color : #4c4949;
+  text-decoration: none;
+  min-width : 80px;
+  background : white !important;
+}
+.logout:hover {
+  color : #4c4949;
+  text-decoration: none;
+  background : white;
+}
+.home:hover, .allPolls:hover, .myPolls:hover, .loggedin:hover{
+  border : 0px;
+  color : white;
+  text-decoration: none;
+  background : #4c4949;
+}
+.right {
+  float : right;
+}
+.nav {
+  z-index : -1;
+  display: block;
+  padding: 12px;
+  background-color: black;
+  min-height : 48px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+h1 {
+  font-size : 100px;
+  font-weight: bold;
+  color: #f4f4f4;
+  text-align : center
+}
+footer {
+  margin-top: 5%;
+  padding: 1%;
+  background : #1c1a1a
+}
+.pollList { 
+  color : black;
+  overflow : hidden;
+  margin : 1.25% 5% 1.25% 5%;
+  display: inline-block;
+  width : 40%;
+  border : 1.5px solid black;
+  border-radius : 5px;
+  padding : 1%;
+  font-size : 20px;
+  background : #f4f4f4;
+}
+.pollList:hover {
+  border : 1.5px solid black;
+  color : black;
+  background : white;
+  text-decoration : none
+}
+.signintab {
+  padding : 10px;
+  border : 1.5px solid black;
+  background : #1da1f2;
+  color : white;
+  border-radius : 2px;
+}
+.signintab:hover{
+  cursor : pointer;
+  border : 1.5px solid #1da1f2;
+  color : #1da1f2;
+  background : white;
+  border-radius : 2px;
+}
+.reactPoll {
+  padding : 5%
+}
+.reactPoll h2 {
+  font-weight: bold;
+  font-size : 45px;
+  margin : 2%;
+  margin-bottom : 5%
+}
+#voteForm {
+  display : block;
+  width : 100%;
+  margin-top: 25%
+}
+#voteForm select {
+  width : 70%;
+  margin : auto
+}
+#voteForm input {
+  width : 70%;
+  margin : auto
+}
+.customInput{
+  margin: 0;
+}
+p.customInput{
+  display: block;
+  text-align : left;
+  margin-left : 15%;
+  font-weight : bold !important;
+  margin-top: 50%
+}
+input.costumInput{
+  margin-bottom: 5%
+}
+#voteForm p {
+  display: block;
+  text-align : left;
+  margin: 0;
+  margin-left : 15%;
+  font-weight : bold;
+}
+#jsonFormatted {
+  display : none
+}
+.row{
+  border : 1px solid lightgrey;
+}
+#chart {
+  width : 100%;
+  display : block;
+  margin : auto
+}
+#share {
+  margin-top: 5%;
+  width : 70%;
+}
+#submitVote{
+  background: #337ab7
+}
+#delete, #delete button {
+  width: 100%
+}
+#formLabel {
+  font-weight : bold
+}
+.col-sm-4{
+  color : white;
+  text-align : center;
+  padding : 0px;
+}
+.col-sm-4 p{
+  margin:0px;
+  padding : 5% 0% 2.5% 0%  
+}
+footer div.row{
+  border : 0px;
+  padding : 0px;
+}
+footer div p{
+  border : 0px;
+  padding : 0px;
+  color : white;
+  margin : 0% 0 0 0
+}
+footer div p:nth-child(1){
+  margin-bottom : 0.5%
+}
+footer div.text-center {
+  padding : 1%
+}
