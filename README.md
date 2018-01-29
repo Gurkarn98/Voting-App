@@ -2,6 +2,6 @@ Voting App
 =========
 Vote in an existing poll.
   
-## or
+## OR
   
 Create your own polls and share with your friends
