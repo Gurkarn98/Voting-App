@@ -1,0 +1,38 @@
+{
+  "name": "File-Metadata-Microservice",
+  "version": "0.0.1",
+  "description": "File Metadata Microservice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "node-twitter-api": "^1.8.0",
+    "passport": "^0.4.0",
+    "passport-twitter": "^1.0.4",
+    "express-session": "^1.15.6",
+    "connect-mongo": "^2.0.1",
+    "mongodb": "^3.0.1",
+    "body-parser": "^1.18.2",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.10.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
